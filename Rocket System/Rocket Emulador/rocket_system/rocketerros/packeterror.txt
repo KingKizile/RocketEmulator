@@ -1,0 +1,57 @@
+
+Error in packet [1160] BODY: : 
+System.InvalidOperationException: Data cannot be null.
+   em Rocket.HabboHotel.Items.ItemFactory.CreateSingleItemNullable(ItemData Data, Habbo Habbo, String ExtraData, String DisplayFlags, Int32 GroupId, Int32 LimitedNumber, Int32 LimitedStack) na D:\Rocket V2\Rocket Emulador\HabboHotel\Items\ItemFactory.cs:linha 13
+   em Rocket.Communication.Packets.Incoming.Rooms.Camera.PurchasePhotoEvent.Parse(GameClient Session, ClientPacket Packet) na D:\Rocket V2\Rocket Emulador\Communication\Packets\Incoming\Rooms\Camera\PurchasePhotoEvent.cs:linha 52
+   em Rocket.Communication.Packets.PacketManager.TryExecutePacket(GameClient Session, ClientPacket Packet) na D:\Rocket V2\Rocket Emulador\Communication\Packets\PacketManager.cs:linha 162
+   em Rocket.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientPacket Message) na D:\Rocket V2\Rocket Emulador\HabboHotel\GameClients\GameClient.cs:linha 68
+
+
+Error in packet [1160] BODY: : 
+System.InvalidOperationException: Data cannot be null.
+   em Rocket.HabboHotel.Items.ItemFactory.CreateSingleItemNullable(ItemData Data, Habbo Habbo, String ExtraData, String DisplayFlags, Int32 GroupId, Int32 LimitedNumber, Int32 LimitedStack) na D:\Rocket V2\Rocket Emulador\HabboHotel\Items\ItemFactory.cs:linha 13
+   em Rocket.Communication.Packets.Incoming.Rooms.Camera.PurchasePhotoEvent.Parse(GameClient Session, ClientPacket Packet) na D:\Rocket V2\Rocket Emulador\Communication\Packets\Incoming\Rooms\Camera\PurchasePhotoEvent.cs:linha 52
+   em Rocket.Communication.Packets.PacketManager.TryExecutePacket(GameClient Session, ClientPacket Packet) na D:\Rocket V2\Rocket Emulador\Communication\Packets\PacketManager.cs:linha 162
+   em Rocket.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientPacket Message) na D:\Rocket V2\Rocket Emulador\HabboHotel\GameClients\GameClient.cs:linha 68
+
+
+Error in packet [1160] BODY: : 
+System.InvalidOperationException: Data cannot be null.
+   em Rocket.HabboHotel.Items.ItemFactory.CreateSingleItemNullable(ItemData Data, Habbo Habbo, String ExtraData, String DisplayFlags, Int32 GroupId, Int32 LimitedNumber, Int32 LimitedStack) na D:\Rocket V2\Rocket Emulador\HabboHotel\Items\ItemFactory.cs:linha 13
+   em Rocket.Communication.Packets.Incoming.Rooms.Camera.PurchasePhotoEvent.Parse(GameClient Session, ClientPacket Packet) na D:\Rocket V2\Rocket Emulador\Communication\Packets\Incoming\Rooms\Camera\PurchasePhotoEvent.cs:linha 52
+   em Rocket.Communication.Packets.PacketManager.TryExecutePacket(GameClient Session, ClientPacket Packet) na D:\Rocket V2\Rocket Emulador\Communication\Packets\PacketManager.cs:linha 162
+   em Rocket.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientPacket Message) na D:\Rocket V2\Rocket Emulador\HabboHotel\GameClients\GameClient.cs:linha 68
+
+
+Error in packet [705] BODY: [0]8: 
+System.ArgumentNullException: Valor n?o pode ser nulo.
+Nome do par?metro: format
+   em System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   em System.String.Format(String format, Object arg0, Object arg1)
+   em Rocket.HabboHotel.Camera.CameraPhotoManager.GetPath(CameraPhotoType type, Int32 PhotoId, Int32 CreatorId) na D:\Rocket V2\Rocket Emulador\HabboHotel\Camera\CameraPhotoManager.cs:linha 131
+   em Rocket.Communication.Packets.Incoming.Rooms.Camera.CustomRenderRoomEvent.Parse(GameClient Session, ClientPacket Packet) na D:\Rocket V2\Rocket Emulador\Communication\Packets\Incoming\Rooms\Camera\CustomRenderRoomEvent.cs:linha 42
+   em Rocket.Communication.Packets.PacketManager.TryExecutePacket(GameClient Session, ClientPacket Packet) na D:\Rocket V2\Rocket Emulador\Communication\Packets\PacketManager.cs:linha 162
+   em Rocket.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientPacket Message) na D:\Rocket V2\Rocket Emulador\HabboHotel\GameClients\GameClient.cs:linha 68
+
+
+Error in packet [705] BODY: [0]9: 
+System.ArgumentNullException: Valor n?o pode ser nulo.
+Nome do par?metro: format
+   em System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   em System.String.Format(String format, Object arg0, Object arg1)
+   em Rocket.HabboHotel.Camera.CameraPhotoManager.GetPath(CameraPhotoType type, Int32 PhotoId, Int32 CreatorId) na D:\Rocket V2\Rocket Emulador\HabboHotel\Camera\CameraPhotoManager.cs:linha 137
+   em Rocket.Communication.Packets.Incoming.Rooms.Camera.CustomRenderRoomEvent.Parse(GameClient Session, ClientPacket Packet) na D:\Rocket V2\Rocket Emulador\Communication\Packets\Incoming\Rooms\Camera\CustomRenderRoomEvent.cs:linha 42
+   em Rocket.Communication.Packets.PacketManager.TryExecutePacket(GameClient Session, ClientPacket Packet) na D:\Rocket V2\Rocket Emulador\Communication\Packets\PacketManager.cs:linha 162
+   em Rocket.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientPacket Message) na D:\Rocket V2\Rocket Emulador\HabboHotel\GameClients\GameClient.cs:linha 68
+
+
+Error in packet [705] BODY: [0]10: 
+System.ArgumentNullException: Valor n?o pode ser nulo.
+Nome do par?metro: format
+   em System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   em System.String.Format(String format, Object arg0, Object arg1)
+   em Rocket.HabboHotel.Camera.CameraPhotoManager.GetPath(CameraPhotoType type, Int32 PhotoId, Int32 CreatorId) na D:\Rocket V2\Rocket Emulador\HabboHotel\Camera\CameraPhotoManager.cs:linha 137
+   em Rocket.Communication.Packets.Incoming.Rooms.Camera.CustomRenderRoomEvent.Parse(GameClient Session, ClientPacket Packet) na D:\Rocket V2\Rocket Emulador\Communication\Packets\Incoming\Rooms\Camera\CustomRenderRoomEvent.cs:linha 42
+   em Rocket.Communication.Packets.PacketManager.TryExecutePacket(GameClient Session, ClientPacket Packet) na D:\Rocket V2\Rocket Emulador\Communication\Packets\PacketManager.cs:linha 162
+   em Rocket.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientPacket Message) na D:\Rocket V2\Rocket Emulador\HabboHotel\GameClients\GameClient.cs:linha 68
+
